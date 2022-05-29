@@ -1,5 +1,14 @@
 # Budgets Management App
 
+// TODO: change the path
+![Budgets Management App](/Users/taichi/Documents/coding/react-budget-app/src/BudgetsApp.png)
+
+## hooks
+
+- useState
+- useContext
+-
+
 ## Available Scripts
 
 In the project directory, you can run:
