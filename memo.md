@@ -6,20 +6,20 @@
 
 `touch .prettierrc.js`
 
-in .prettierrc.js
+in .prettierrc.js<br>
 `module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   printWidth: 100,
 };`
 
-format check
+format check<br>
 `npx prettier --check ./src`
 
-format fix
+format fix<br>
 `npx prettier --write ./src`
 
-in package.json
+in package.json<br>
 `"scripts": {
   ...
   "format": "prettier --check ./src",
@@ -32,24 +32,26 @@ in package.json
 
 `npx eslint --init`
 
-❯ To check syntax and find problems
-❯ JavaScript modules (import/export)
-❯ React
-? Does your project use TypeScript? › Yes
-✔ Browser
-❯ JavaScript
+
+`❯ To check syntax and find problems`<br>
+`❯ JavaScript modules (import/export)`<br>
+`❯ React`<br>
+`? Does your project use TypeScript? › Yes`<br>
+`✔ Browser`<br>
+`❯ JavaScript`
+
 
 Rules
-like in .eslintrc.js
+like in .eslintrc.js<br>
 `npm install --save-dev eslint-plugin-functional`
 
-check
+check<br>
 `npx eslint ./src`
 
-fix
+fix<br>
 `npx eslint --fix ./src`
 
-in package.json
+in package.json<br>
 `"scripts": {
   ...
   "lint": "eslint ./src",
@@ -61,7 +63,7 @@ in package.json
 `npm install --save-dev husky`
 `npm install --save-dev lint-staged`
 
-in package.json
+in package.json<br>
 `{
   ...
   "scripts": {
@@ -82,6 +84,3 @@ in package.json
   },
   ...
 }`
-
-
-
