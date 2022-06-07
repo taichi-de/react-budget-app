@@ -4,14 +4,11 @@ https://cute-llama-730a32.netlify.app/
 ![Budgets Management App](/src/BudgetsApp.png)
 
 ## functions
-//TODO: update
-- React
-<!-- - ts -->
-- custom hooks
-- custom content
-- custom component
-- crud
-- firebase
+
+- React (CRUD App)
+    - custom hooks
+    - custom content
+    - custom component
 - Prettier/ESLint/Husky
 
 ## Available Scripts
